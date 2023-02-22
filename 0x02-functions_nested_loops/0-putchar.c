@@ -1,13 +1,19 @@
 #include "main.h"
-#include <unistd.h>
-
 /**
- * _putchar - writes the character c in stdout
- * @c: The character to print
- * return: on success 1.
- * On error, -1 is returned, and errno is se appropriately
+ * main - print _putchar
+ * is written by mbah
+ * return: 0
  */
-int _putchar(char c)
+int main(void)
 {
-	return(write(1, &c, 1))
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_pitchar('h');
+_pitchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
