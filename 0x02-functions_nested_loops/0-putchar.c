@@ -14,11 +14,11 @@ int main(void)
 
 	int index, size;
 
-	size = sizeof(nums) / sizeof(nums[index]);
+	size = sizeof(num) / sizeof(num[index]);
 
 	for (index = 0; index < size; index++)
 	{
-		_putchar(nums[index]);
+		_putchar(num[index]);
 	}
 	_putchar('\n');
 	return (0);
