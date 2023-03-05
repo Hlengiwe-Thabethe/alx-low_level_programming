@@ -4,7 +4,7 @@
 #include <time.h>
 
 /**
- * main - generates random valid password for the
+ * main - generates random valid passwords for the
  * program 101-crackme
  * Return: Always 0
  */
@@ -20,6 +20,7 @@ int main(void)
 		password[index] = 33 + rand() % 94;
 		sum += password[index++];
 	}
+	password[index] = '\0';
 	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
