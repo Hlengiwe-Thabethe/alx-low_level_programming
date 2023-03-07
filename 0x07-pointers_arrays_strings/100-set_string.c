@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_sring - entry point
+ * set_string - entry point
  * @s: input
  * @to: input
  * Return: Always success
