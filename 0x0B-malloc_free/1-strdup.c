@@ -9,12 +9,10 @@
 
 char *_strdup(char *str)
 {
-	int a;
-	int i;
+	int a = 0;
+	int i = 1;
 	char *s;
 
-	a = 0;
-	i = 1;
 	if (str == NULL)
 		return (NULL);
 	while (str[i])
